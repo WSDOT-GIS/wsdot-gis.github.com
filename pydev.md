@@ -1,6 +1,8 @@
 Python Development
 ==================
 
+**This guide is currently a work-in-progress.**
+
 Python is mainly used at WSDOT in association with ArcGIS software.
 
 Recommendations
@@ -23,7 +25,8 @@ Recommended Tools
 -----------------
 
 * [Visual Studio Code]
-* [Python Extension] for Visual Studio Code
+    * [Python Extension]
+    * [gitignore extension] - Used for easily creating a `.gitignore` file for Python development.
 
 ### Tools installed as Python packages ###
 
@@ -32,11 +35,28 @@ These tools can be installed via [pip]. Alternatively, some can also be installe
 * [pylint]
 * [autopep8]
 
+Starting a new project
+----------------------
+
+1. Create a new folder.
+2. Open the folder in Visual Studio Code.
+3. From the Command Pallette, select *Add gitignore* and then *Python* to generate a new `.gitignore` file.
+4. Set up the folder structure described in *[Extending geoprocessing through Python modules]*.
+
+Links
+-----
+
+* [WSDOT Python projects on GitHub]
+* [Extending geoprocessing through Python modules]
+
 [argparse]:https://docs.python.org/3/library/argparse.html
 [autopep8]:https://pypi.io/project/autopep8/
 [Background Geoprocessing]:https://desktop.arcgis.com/en/arcmap/latest/analyze/executing-tools/64bit-background.htm
 [Conda]:http://pro.arcgis.com/en/pro-app/arcpy/get-started/using-conda-with-arcgis-pro.htm
+[Extending geoprocessing through Python modules]:https://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/extending-geoprocessing-through-python-modules.htm
+[gitignore extension]:https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
 [pip]:https://pip.pypa.io/
 [pylint]:https://pypi.io/project/pylint/
 [Python Extension]:https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
 [Visual Studio Code]:https://code.visualstudio.com/
+[WSDOT Python projects on GitHub]:https://github.com/WSDOT-GIS?utf8=%E2%9C%93&q=&type=&language=python
