@@ -48,6 +48,7 @@ Links
 
 * [WSDOT Python projects on GitHub]
 * [Extending geoprocessing through Python modules]
+* [Python Packaging User Guide]
 
 [argparse]:https://docs.python.org/3/library/argparse.html
 [autopep8]:https://pypi.io/project/autopep8/
@@ -58,5 +59,6 @@ Links
 [pip]:https://pip.pypa.io/
 [pylint]:https://pypi.io/project/pylint/
 [Python Extension]:https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
+[Python Packaging User Guide]:https://packaging.python.org/
 [Visual Studio Code]:https://code.visualstudio.com/
 [WSDOT Python projects on GitHub]:https://github.com/WSDOT-GIS?utf8=%E2%9C%93&q=&type=&language=python
