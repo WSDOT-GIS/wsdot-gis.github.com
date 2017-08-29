@@ -43,6 +43,11 @@ Starting a new project
 3. From the Command Pallette, select *Add gitignore* and then *Python* to generate a new `.gitignore` file.
 4. Set up the folder structure described in *[Extending geoprocessing through Python modules]*.
 
+Pylint configuration
+--------------------
+
+Pylint will not recognize some arcpy classes or properties and you will need to modify the `generated-members` section of your `.pylintrc` file. ([Examples](https://github.com/search?utf8=%E2%9C%93&q=org%3AWSDOT-GIS+filename%3A.pylintrc+generated-members&type=Code))
+
 Links
 -----
 
