@@ -46,7 +46,7 @@ Starting a new project
 Pylint configuration
 --------------------
 
-Pylint will not recognize some arcpy classes or properties and you will need to modify the `generated-members` section of your `.pylintrc` file. ([Examples](https://github.com/search?utf8=%E2%9C%93&q=org%3AWSDOT-GIS+filename%3A.pylintrc+generated-members&type=Code))
+Pylint will not recognize some arcpy classes or properties and you will need to modify the `generated-members` section of your `.pylintrc` file. ([Examples][generated members example])
 
 Links
 -----
@@ -60,6 +60,7 @@ Links
 [Background Geoprocessing]:https://desktop.arcgis.com/en/arcmap/latest/analyze/executing-tools/64bit-background.htm
 [Conda]:http://pro.arcgis.com/en/pro-app/arcpy/get-started/using-conda-with-arcgis-pro.htm
 [Extending geoprocessing through Python modules]:https://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/extending-geoprocessing-through-python-modules.htm
+[generated members example]:https://github.com/search?utf8=%E2%9C%93&q=org%3AWSDOT-GIS+filename%3A.pylintrc+generated-members&type=Code
 [gitignore extension]:https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
 [pip]:https://pip.pypa.io/
 [pylint]:https://pypi.io/project/pylint/
