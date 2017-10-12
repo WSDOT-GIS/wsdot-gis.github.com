@@ -8,7 +8,7 @@ Python is mainly used at WSDOT in association with ArcGIS software.
 Recommendations
 ---------------
 
-Write Python code to work with both Python 2.x and Python 3.x by [following these guidelines](https://docs.python.org/3/howto/pyporting.html). The list below shows which software uses which version of Python.
+Write Python code to work with both Python 2.x and Python 3.x by [following these guidelines][Porting Python 2 Code to Python 3]. The list below shows which software uses which version of Python.
 
 * Python 2.X
     * 32-bit
@@ -19,7 +19,7 @@ Write Python code to work with both Python 2.x and Python 3.x by [following thes
 * Python 3.X (64-bit)
     * ArcGIS Pro
 
-Use [argparse] module when creating command-line tools.
+Use [argparse] module when creating command-line tools. If your module contains a script called `__main__.py` then it can be run from the console using `python -m`.
 
 Recommended Tools
 -----------------
@@ -63,6 +63,7 @@ Links
 [generated members example]:https://github.com/search?utf8=%E2%9C%93&q=org%3AWSDOT-GIS+filename%3A.pylintrc+generated-members&type=Code
 [gitignore extension]:https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
 [pip]:https://pip.pypa.io/
+[Porting Python 2 Code to Python 3]:https://docs.python.org/3/howto/pyporting.html
 [pylint]:https://pypi.io/project/pylint/
 [Python Extension]:https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
 [Python Packaging User Guide]:https://packaging.python.org/
