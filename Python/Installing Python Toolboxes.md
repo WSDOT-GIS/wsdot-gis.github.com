@@ -35,7 +35,6 @@ Installing a package
     ```PowerShell
     Get-ChildItem $env:appdata\Python\**\*.pyt -Recurse | Select-Object -ExpandProperty FullName
     ```
-4. Use Windows Explorer to copy all of the `.pyt` files and associated `.pyt.xml` files to a new location. A good location to copy to would be a subfolder of your `Documents` folder. (E.g., `C:\Users\yourusername\Documents\Custom Python Toolboxes`)
 
 
 [Extending geoprocessing through Python modules]:https://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/extending-geoprocessing-through-python-modules.htm
