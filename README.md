@@ -4,7 +4,7 @@ WSDOT TDGMO Developers
 Guides
 ------
 
-* [Clearing your browser cache](Clearing Browser Cache/Clearing Your Browser Cache.md)
+* [Clearing your browser cache](Clearing Browser Cache/index.md)
 
 ### Python ###
 * [Python Development](Python/pydev.md)
