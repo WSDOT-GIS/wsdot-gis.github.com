@@ -19,6 +19,13 @@ Write Python code to work with both Python 2.x and Python 3.x by [following thes
 * Python 3.X (64-bit)
     * ArcGIS Pro
 
+Include the following line to force Python 2.x to behave like Python 3.x.
+
+```python
+from __future__ import absolute_import, division, print_function, unicode_literals
+```
+
+
 Use [argparse] module when creating command-line tools. If your module contains a script called `__main__.py` then it can be run from the console using `python -m`.
 
 Recommended Tools
