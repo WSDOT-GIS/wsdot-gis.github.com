@@ -18,6 +18,7 @@ The various different ArcGIS software products each use their own specific versi
         * ArcGIS Server
 * Python 3.X (64-bit)
     * ArcGIS Pro
+
 Once you have completed the setup steps in the *Setup* section below, you can use the [Python Launcher for Windows] to choose between the different Python 2.X versions associated with the non-Pro ArcGIS software and use [propy.bat] to use the Python 3 environment that is installed with ArcGIS Pro.
 
 ### Setup ###
