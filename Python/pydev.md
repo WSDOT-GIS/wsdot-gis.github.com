@@ -24,7 +24,7 @@ Once you have completed the setup steps in the *Setup* section below, you can us
 ### Setup ###
 
 1. Install the ArcGIS software you want to use.
-2. Install the latest version of Python 3 (64-bit) [**using an installer downloaded from python.org**](https://www.python.org/downloads/windows/). Only the installers from the official python.org site seem to include the [Python Lancher for Windows], which you will need to launch the various versions of Python. (Note that you can change these options after installation using the *Add / Remove Programs* control in Windows using the Modify option with Python.)
+2. Install the latest version of Python 3 (64-bit) [**using an installer downloaded from python.org**](https://www.python.org/downloads/windows/). Only the installers from the official python.org site seem to include the [Python Launcher for Windows], which you will need to launch the various versions of Python. (Note that you can change these options after installation using the *Add / Remove Programs* control in Windows using the Modify option with Python.)
     1. Run the installer file.
     2. Check the *Install launcher for all users* checkbox.
     3. Check the *Add Python 3.X to PATH* checkbox. (The *X* will actually be a version number.)
