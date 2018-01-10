@@ -42,16 +42,13 @@ Once you have completed the setup steps in the *Setup* section below, you can us
 Recommendations
 ---------------
 
-Write Python code to work with both Python 2.x and Python 3.x by [following these guidelines][Porting Python 2 Code to Python 3].
-
-
-Include the following line to force Python 2.x to behave like Python 3.x.
-
-```python
-from __future__ import absolute_import, division, print_function, unicode_literals
-```
-
-Use [argparse] module when creating command-line tools. If your module contains a script called `__main__.py` then it can be run from the console using `python -m`.
+* Write Python code to work with both Python 2.x and Python 3.x by [following these guidelines][Porting Python 2 Code to Python 3].
+* Use [argparse] module when creating command-line tools. If your module contains a script called `__main__.py` then it can be run from the console using `python -m`.
+* Document function parameter and return types using [`# type:` comments][Suggested syntax for Python 2.7 and straddling code].
+* Include the following line to force Python 2.x to behave like Python 3.x.
+    ```python
+    from __future__ import absolute_import, division, print_function, unicode_literals
+    ```
 
 Recommended Tools
 -----------------
@@ -106,6 +103,7 @@ Links
 [Extending geoprocessing through Python modules]:https://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/extending-geoprocessing-through-python-modules.htm
 [generated members example]:https://github.com/search?utf8=%E2%9C%93&q=org%3AWSDOT-GIS+filename%3A.pylintrc+generated-members&type=Code
 [gitignore extension]:https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
+[PEP 484]:https://www.python.org/dev/peps/pep-0484/
 [pip]:https://pip.pypa.io/
 [Porting Python 2 Code to Python 3]:https://docs.python.org/3/howto/pyporting.html
 [propy.bat]:https://pro.arcgis.com/en/pro-app/arcpy/get-started/using-conda-with-arcgis-pro.htm
@@ -113,5 +111,6 @@ Links
 [Python Extension]:https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
 [Python Launcher for Windows]:https://docs.python.org/3/using/windows.html#python-launcher-for-windows
 [Python Packaging User Guide]:https://packaging.python.org/
+[Suggested syntax for Python 2.7 and straddling code]:https://www.python.org/dev/peps/pep-0484/#suggested-syntax-for-python-2-7-and-straddling-code
 [Visual Studio Code]:https://code.visualstudio.com/
 [WSDOT Python projects on GitHub]:https://github.com/WSDOT-GIS?utf8=%E2%9C%93&q=&type=&language=python
