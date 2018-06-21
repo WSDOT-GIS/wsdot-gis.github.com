@@ -1,7 +1,3 @@
----
-title: Web development
----
-
 JavaScript and Web Development
 ==============================
 

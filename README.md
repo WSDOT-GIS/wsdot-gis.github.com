@@ -1,6 +1,3 @@
----
-title: WSDOT TDGMO Developers home
----
 
 WSDOT TDGMO Developers
 ======================
