@@ -69,7 +69,9 @@ Recommended Tools
 
 ### Tools installed as Python packages ###
 
-These tools can be installed via [pip]. Alternatively, some can also be installed via [Conda].
+These [linting][lint on Wikipedia] tools can be installed via [pip]. Alternatively, some can also be installed via [Conda].
+
+(These linting tools are not strictly required for development, but Visual Studio Code will keep nagging you if you don't have them. You'll either need to turn off these messages or install the tools to make the messages stop appearing.)
 
 * [pylint]
 * [autopep8]
@@ -101,6 +103,7 @@ Links
 [Extending geoprocessing through Python modules]:https://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/extending-geoprocessing-through-python-modules.htm
 [generated members example]:https://github.com/search?utf8=%E2%9C%93&q=org%3AWSDOT-GIS+filename%3A.pylintrc+generated-members&type=Code
 [gitignore extension]:https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
+[lint on Wikipedia]:https://en.wikipedia.org/wiki/Lint_(software)
 [PEP 484]:https://www.python.org/dev/peps/pep-0484/
 [pip]:https://pip.pypa.io/
 [Porting Python 2 Code to Python 3]:https://docs.python.org/3/howto/pyporting.html
