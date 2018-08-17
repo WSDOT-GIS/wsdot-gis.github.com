@@ -10,21 +10,19 @@ Using multiple Python environments
 
 The various different ArcGIS software products each use their own specific versions of Python.
 
-* Python 2.X
-    * 32-bit
-        * ArcGIS Desktop
-    * 64-bit
-        * ArcGIS Desktop ([Background Geoprocessing])
-        * ArcGIS Server
-* Python 3.X (64-bit)
-    * ArcGIS Pro
+| ArcGIS Product                              | Python Version | bitness |
+| ------------------------------------------- | -------------- | ------- |
+| ArcGIS Desktop                              | 2.X            | 32-bit  |
+| ArcGIS Desktop ([Background Geoprocessing]) | 2.X            | 64-bit  |
+| ArcGIS Server                               | 2.X            | 64-bit  |
+| ArcGIS Pro                                  | 3.X            | 64-bit  |
 
 Once you have completed the setup steps in the *Setup* section below, you can use the [Python Launcher for Windows] to choose between the different Python 2.X versions associated with the non-Pro ArcGIS software and use [propy.bat] to use the Python 3 environment that is installed with ArcGIS Pro.
 
 ### Setup ###
 
 1. Install the ArcGIS software you want to use.
-2. Install the latest version of Python 3 (64-bit) [**using an installer downloaded from python.org**](https://www.python.org/downloads/windows/). Only the installers from the official python.org site seem to include the [Python Launcher for Windows], which you will need to launch the various versions of Python. (Note that you can change these options after installation using the *Add / Remove Programs* control in Windows using the Modify option with Python.)
+2. Install the latest version of Python 3 (64-bit) [**using an installer downloaded from python.org**][Python Installer]. Only the installers from the official python.org site seem to include the [Python Launcher for Windows], which you will need to launch the various versions of Python. (Note that you can change these options after installation using the *Add / Remove Programs* control in Windows using the Modify option with Python.)
     1. Run the installer file.
     2. Check the *Install launcher for all users* checkbox.
     3. Check the *Add Python 3.X to PATH* checkbox. (The *X* will actually be a version number.)
@@ -114,3 +112,4 @@ Links
 [Suggested syntax for Python 2.7 and straddling code]:https://www.python.org/dev/peps/pep-0484/#suggested-syntax-for-python-2-7-and-straddling-code
 [Visual Studio Code]:https://code.visualstudio.com/
 [WSDOT Python projects on GitHub]:https://github.com/WSDOT-GIS?utf8=%E2%9C%93&q=&type=&language=python
+[Python Installer]:https://www.python.org/downloads/windows/

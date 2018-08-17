@@ -18,7 +18,9 @@ Tools
 
 [NPM](https://www.npmjs.com/) - comes with Node.
 
-* [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade) - Use this tool to upgrade NPM to the latest version on Windows systems.
+<!-- This seems to no longer be necessary as of Node 10.8. Windows users can now upgrade NPM using standard method that other OSes use.
+    * [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade) - Use this tool to upgrade NPM to the latest version on Windows systems.
+-->
 
 [Yarn](https://yarnpkg.com) - alternative to NPM that caches packages in order to make fewer web requests when acquiring dependencies.
 
