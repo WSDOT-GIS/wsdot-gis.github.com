@@ -59,30 +59,20 @@ Installed Pythons found by C:\WINDOWS\py.exe Launcher for Windows
 
 The table below describes what is listed in the sample command output.
 
-| Instead of `python` use... | Alias      | Python version | Bitness | Path                                   | Is Default |
-| -------------------------: | ---------- | -------------: | ------: | -------------------------------------- | :--------- |
-| `py -3.7-64`               |            | 3.7            | 64      | `C:\Program Files\Python37\python.exe` | Yes        |
-|                            | `py -3.7`  |                |         |                                        |            |
-|                            | `py -3`    |                |         |                                        |            |
-|                            | `py`       |                |         |                                        |            |
-| `py -2.7-64`               |            | 2.7            | 64      | `C:\Python27\ArcGISx6410.6\python.exe` | No         |
-|                            | `py -2.7`  |                |         |                                        |            |
-|                            | `py -2`    |                |         |                                        |            |
-| `py -2.7-32`               |            | 2.7            | 32      | `C:\Python27\ArcGIS10.6\python.exe`    | No         |
-|                            | `py -2-32` |                |         |                                        |            |
+| Instead of `python` use... | Python version | Bitness | Path                                   | Is Default |
+| -------------------------: | -------------: | ------: | -------------------------------------- | :--------- |
+| `py -3.7-64`               | 3.7            | 64      | `C:\Program Files\Python37\python.exe` | Yes        |
+| `py -2.7-64`               | 2.7            | 64      | `C:\Python27\ArcGISx6410.6\python.exe` | No         |
+| `py -2.7-32`               | 2.7            | 32      | `C:\Python27\ArcGIS10.6\python.exe`    | No         |
 
 
 ##### Column descriptions #####
 
 1. Shows which flag you would use immediately after the `py` command to specify which version of Python to run.
-2. Shortened alias of above preceding row's command.
-    * Omitting the minor component of a version number will use the latest version with the same major component.
-    * Omitting the "bitness" will default to the 64-bit version if both a 32- and 64- bit version are available.
-    * Omitting the version entirely will use the default Python. (See *Is Default* column.)
-3. Version of Python. The number before the period is the "major" component. Following the period is the "minor" component.
-4. "bitness": whether it is a 32- or 64-bit version of Python.
-5. Path: location of the Python executable.
-6. The default Python will be used if no version info is specified via a flag. (There can be only one. ⚔)
+2. Version of Python. The number before the period is the "major" component. Following the period is the "minor" component.
+3. "bitness": whether it is a 32- or 64-bit version of Python.
+4. Path: location of the Python executable.
+5. The default Python will be used if no version info is specified via a flag. (There can be only one. ⚔)
 
 
 Recommendations
