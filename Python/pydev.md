@@ -36,6 +36,54 @@ Once you have completed the setup steps in the *Setup* section below, you can us
     7. Click the install button.
 3. Add the following folder to your system's PATH variable (assuming ArcGIS Pro's default install location): `C:\Program Files\ArcGIS\Pro\bin\Python\Scripts`. Make sure this folder is listed **after** the two folders that were added to the `PATH` by the Python 3 installer from python.org. This step allows you to use the ArcGIS Pro Python environment by using `propy.bat`.
 
+### Using the Python Launcher ###
+
+The [Python Launcher for Windows] is called from the command line using the `py` command.
+
+#### List Python installations ####
+
+The command below will output all Python environments available to the Python Launcher. (As ArcGIS Pro installs its Python in a location that is not detectable to the Python Launcher, you must use `propy.bat` instead of `py`.)
+
+```
+py -0p
+```
+
+The output of the above command will look similar to this.
+
+```
+Installed Pythons found by C:\WINDOWS\py.exe Launcher for Windows
+ -3.7-64        "C:\Program Files\Python37\python.exe" *
+ -2.7-64        C:\Python27\ArcGISx6410.6\python.exe
+ -2.7-32        C:\Python27\ArcGIS10.6\python.exe
+```
+
+The table below describes what is listed in the sample command output.
+
+| Instead of `python` use... | Alias      | Python version | Bitness | Path                                   | Is Default |
+| -------------------------: | ---------- | -------------: | ------: | -------------------------------------- | :--------- |
+| `py -3.7-64`               |            | 3.7            | 64      | `C:\Program Files\Python37\python.exe` | Yes        |
+|                            | `py -3.7`  |                |         |                                        |            |
+|                            | `py -3`    |                |         |                                        |            |
+|                            | `py`       |                |         |                                        |            |
+| `py -2.7-64`               |            | 2.7            | 64      | `C:\Python27\ArcGISx6410.6\python.exe` | No         |
+|                            | `py -2.7`  |                |         |                                        |            |
+|                            | `py -2`    |                |         |                                        |            |
+| `py -2.7-32`               |            | 2.7            | 32      | `C:\Python27\ArcGIS10.6\python.exe`    | No         |
+|                            | `py -2-32` |                |         |                                        |            |
+
+
+##### Column descriptions #####
+
+1. Shows which flag you would use immediately after the `py` command to specify which version of Python to run.
+2. Shortened alias of above preceding row's command.
+    * Omitting the minor component of a version number will use the latest version with the same major component.
+    * Omitting the "bitness" will default to the 64-bit version if both a 32- and 64- bit version are available.
+    * Omitting the version entirely will use the default Python. (See *Is Default* column.)
+3. Version of Python. The number before the period is the "major" component. Following the period is the "minor" component.
+4. "bitness": whether it is a 32- or 64-bit version of Python.
+5. Path: location of the Python executable.
+6. The default Python will be used if no version info is specified via a flag. (There can be only one. ⚔)
+
 
 Recommendations
 ---------------
