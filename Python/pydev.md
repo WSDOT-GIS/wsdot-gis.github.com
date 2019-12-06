@@ -1,3 +1,9 @@
+---
+title: Python Development
+layout: page
+permalink: /Python/Development/
+---
+
 Python Development
 ==================
 

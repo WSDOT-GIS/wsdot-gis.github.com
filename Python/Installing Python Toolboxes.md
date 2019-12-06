@@ -1,3 +1,9 @@
+---
+title: Installing Python Toolboxes
+layout: page
+permalink: /python/arcgis/tb
+---
+
 # Installing Python Toolboxes
 
 This is a guide to installing custom Python packages that include [Python Toolboxes][what is a python toolbox?]. This guide is meant for packages built with the folder structure described in [Extending geoprocessing through Python modules].

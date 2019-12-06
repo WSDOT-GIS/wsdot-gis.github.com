@@ -1,3 +1,8 @@
+---
+title: Clearing your browser cache
+layout: page
+---
+
 Clearing your browser cache
 ===========================
 
