@@ -35,7 +35,7 @@ All commands are for PowerShell unless otherwise noted.
 
 ##### Add a folder to the system path
 
-```pwsh
+```PowerShell
 $env:Path += ";$env:PROGRAMFILES\ArcGIS\Pro\bin\Python\Scripts"
 ```
 
@@ -47,7 +47,7 @@ SET PATH=%PATH%;%PROGRAMFILES%\ArcGIS\Pro\bin\Python\Scripts
 
 ##### List Conda environments
 
-```pwsh
+```PowerShell
  Get-ChildItem "$env:LOCALAPPDATA\ESRI\conda\envs" -Directory
 ```
 
