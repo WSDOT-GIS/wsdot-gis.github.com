@@ -14,6 +14,6 @@
 ### Python
 
 - [WSDOT packages on pypi.org](https://pypi.org/user/WSDOT/)
-- [ArcGIS and Python](Python/ArcGIS)
+- [ArcGIS and Python](Python/ArcGIS and Python.md)
 - [Python Development](Python/pydev.md)
 - [Installing Python Toolboxes](Python/Installing Python Toolboxes.md)
