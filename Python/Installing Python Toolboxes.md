@@ -56,12 +56,18 @@ You can list all of the Python Toolboxes installed for the current user account 
 Get-ChildItem $env:appdata\Python\**\*.pyt -Recurse | Select-Object -ExpandProperty FullName
 ```
 
+For packages installed via Conda instead of [pip].
+
+```PowerShell
+Get-ChildItem "$env:LOCALAPPDATA\ESRI\conda\**\*.pyt" -Recurse
+```
+
 ### For all users installs
 
 #### ArcGIS Desktop
 
 ```PowerShell
-Get-ChildItem "$env:SystemDrive\Python*\ArcGIS*\Lib\site-packages\**\*.pyt" -Recurse | more
+Get-ChildItem "$env:SystemDrive\Python*\ArcGIS*\Lib\site-packages\**\*.pyt" -Recurse
 ```
 
 [extending geoprocessing through python modules]: https://pro.arcgis.com/en/pro-app/arcpy/geoprocessing_and_python/extending-geoprocessing-through-python-modules.htm
