@@ -1,7 +1,7 @@
 ---
 title: Python Development
 layout: page
-permalink: /Python/Development/
+permalink: /python/development/
 ---
 
 Python Development

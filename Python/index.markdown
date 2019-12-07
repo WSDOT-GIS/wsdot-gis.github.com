@@ -1,9 +1,9 @@
 ---
 title: Python Development
 layout: page
-permalink: /Python/
+permalink: /python/
 ---
 
-* [ArcGIS and Python](./ArcGIS/)
+* [ArcGIS and Python](./arcgis/)
 * [Installing Python Toolboxes](./arcgis/tb/)
-* [Python Development](./Development/)
+* [Python Development](./development/)

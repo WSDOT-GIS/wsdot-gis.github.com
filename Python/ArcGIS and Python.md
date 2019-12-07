@@ -1,7 +1,7 @@
 ---
 title: ArcGIS and Python
 layout: page
-permalink: /Python/ArcGIS
+permalink: /python/arcgis
 ---
 
 It is recommended to use ArcGIS Pro for new development unless there is a specific need to use Desktop for a feature that is not available in Pro. Desktop uses Python 2.7, which is **no longer supported as of January 2020**.
