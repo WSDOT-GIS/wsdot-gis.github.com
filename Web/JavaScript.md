@@ -1,7 +1,7 @@
 ---
 title: JavaScript and Web Development
 layout: page
-permalink: /Web/JavaScript
+permalink: /Web/JavaScript/
 ---
 
 ## Tools
