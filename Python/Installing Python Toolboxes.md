@@ -1,7 +1,7 @@
 ---
 title: Installing Python Toolboxes
 layout: page
-permalink: /python/arcgis/tb
+permalink: /python/arcgis/tb/
 ---
 
 # Installing Python Toolboxes

@@ -4,6 +4,6 @@ layout: page
 permalink: /Python/
 ---
 
-* [ArcGIS and Python](./ArcGIS)
-* [Installing Python Toolboxes](./arcgis/tb)
-* [Python Development](./Development)
+* [ArcGIS and Python](./ArcGIS/)
+* [Installing Python Toolboxes](./arcgis/tb/)
+* [Python Development](./Development/)
