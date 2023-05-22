@@ -83,10 +83,10 @@ oh-my-posh init pwsh | Invoke-Expression
 
 # Detect if conda should be loaded.
 New-Variable -Name hasArcPy -Value (
-    # Get the first pythons with the text "arcpy" in it.
+    # Get all the Python files and filter to only those containing the text "arcpy".
     (Get-ChildItem **\*.py,**\*.pyt -Recurse | Select-String 'arcpy' -List
-    # Select only the first item. We just need to see if any are there,
-    # so we don't need more than one.
+    # Select only the first item. We only need to determine if Python files containing
+    # "arcpy" are present. Once we've detected one we can stop looking.
     | Select-Object -First 1
     # Return true if matches were found, false otherwise.
     ).Length -ge 1
@@ -109,6 +109,7 @@ if ($hasArcPy) {
     Write-Host "Conda was not initialized automatically. If you would like to do so, use the Initialize-Conda command."
 }
 
+# Remove the hasArcPy variable so it is not present after Powershell has been initialized.
 Remove-Variable hasArcPy
 ```
 
