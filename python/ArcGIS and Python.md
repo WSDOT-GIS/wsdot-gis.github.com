@@ -14,11 +14,13 @@ ArcGIS Pro uses [Conda] to manage multiple environments, as documented in [ArcGI
 
 ### File locations
 
-<details>
+<!-- The <details> tags were causing the table to not render correctly when published as GitHub Pages. -->
 
-<summary>
+<!-- <details> -->
+
+<!-- <summary> -->
 This section describes where various files related to ArcGIS Pro's Python installation can be found.
-</summary>
+<!-- </summary> -->
 
 The text surrounded by percent signs (`%`) are environment variables.
 
@@ -33,7 +35,7 @@ The text surrounded by percent signs (`%`) are environment variables.
 
 [^1]: The number after the word Python may differ depending on the version of ArcGIS Pro installed. ArcGIS Pro 3.1 comes with Python 3.9.16, so the folder name is `Python39`.
 
-</details>
+<!-- </details> -->
 
 #### List [Conda] environments
 
