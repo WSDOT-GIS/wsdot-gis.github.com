@@ -6,7 +6,7 @@ permalink: /python/arcgis/
 
 Please familiarize yourself with the [ArcGIS Pro Python Reference] section of the ArcGIS Pro documentation.
 
-:warning: This page is for ArcGIS Pro 3.1 or newer. For older versions, see the [legacy](legacy/ArcGIS%20and%20Python.md) page.
+⚠ This page is for ArcGIS Pro 3.1 or newer. For older versions, see the [legacy](legacy/ArcGIS%20and%20Python.md) page.
 
 ### [Conda] Environments
 
